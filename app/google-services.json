@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "795040946598",
+    "firebase_url": "https://chat2017-fc2ec.firebaseio.com",
+    "project_id": "chat2017-fc2ec",
+    "storage_bucket": "chat2017-fc2ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:795040946598:android:542533cb840ca6a2",
+        "android_client_info": {
+          "package_name": "com.example.vukhachoi.chat2017"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "795040946598-dpndrjfnrhpmehrg2ea8hcobl7emm8je.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vukhachoi.chat2017",
+            "certificate_hash": "37e92cd4233f50034b3feb8ad32e987654e8d628"
+          }
+        },
+        {
+          "client_id": "795040946598-8cvgiaelobddsflbfdchrndt5gleqi0c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVaMx4N1AZjbB1E921gS7GWj1RUmy6oaM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "795040946598-8cvgiaelobddsflbfdchrndt5gleqi0c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

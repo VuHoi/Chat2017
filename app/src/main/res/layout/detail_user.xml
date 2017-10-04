@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/rltitle"
+        android:layout_alignParentStart="true"
+
+      >
+        <Spinner
+            android:layout_marginTop="10dp"
+            android:layout_width="120dp"
+            android:entries="@array/Setting"
+            android:id="@+id/spnsetting"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content"></Spinner>
+
+        <!--<Button-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_marginRight="15dp"-->
+            <!--android:id="@+id/btnAddFriend"-->
+
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:background="@drawable/stype_button"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Ket ban" />-->
+        <!--<Button-->
+            <!--android:layout_toLeftOf="@+id/btnAddFriend"-->
+            <!--android:layout_marginLeft="15dp"-->
+            <!--android:id="@+id/btnFollow"-->
+
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:background="@drawable/stype_button"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Theo Dõi" />-->
+
+    </RelativeLayout>
+<ListView
+    android:layout_width="match_parent"
+   android:id="@+id/lsvStatus"
+android:layout_below="@+id/rltitle"
+    android:layout_marginTop="20dp"
+    android:layout_height="match_parent">
+
+</ListView>
+
+
+</RelativeLayout>
