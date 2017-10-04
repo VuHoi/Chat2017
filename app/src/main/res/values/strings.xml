@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Chat2017</string>
+    <string-array name="Setting">
+        <item>Setting</item>
+        <item>Change UserName</item>
+        <item>Change Password</item>
+        <item>Logout</item>
+
+    </string-array>
+
+    <string-array name="status">
+        <item>chỉ mình tôi</item>
+        <item>mọi người</item>
+        <item>bạn bè</item>
+    </string-array>
+</resources>

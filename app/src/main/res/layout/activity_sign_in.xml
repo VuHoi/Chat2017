@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context="com.example.vukhachoi.chat2017.MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng Nhập Tài Khoản"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:id="@+id/xxx"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/email"
+        android:textSize="15dp"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="100dp"
+        android:hint="*User Name*"
+        android:id="@+id/edtUserName1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+       android:layout_below="@id/xxx"
+        android:textStyle="bold"
+
+        />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/email"
+        android:textSize="15dp"
+        android:drawablePadding="10dp"
+
+        android:hint="*Email*"
+        android:id="@+id/edtEmail1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/edtUserName1"
+        android:textStyle="bold"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/key"
+        android:textSize="15dp"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="20dp"
+        android:hint="*Password*"
+        android:inputType="textPassword"
+        android:id="@+id/edtPass1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/edtEmail1"
+        android:textStyle="bold"
+
+        />
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Login with account"
+        android:background="@drawable/button_template"
+        android:id="@+id/btnLogin1"
+        android:paddingRight="10dp"
+        android:drawableLeft="@drawable/user"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/edtPass1"/>
+
+
+</RelativeLayout>

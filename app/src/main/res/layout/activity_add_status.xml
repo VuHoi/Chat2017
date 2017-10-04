@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:background="@drawable/border"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:background="@drawable/border"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/imguser"
+            />
+        <TextView
+            android:layout_toRightOf="@+id/imguser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="UserName"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/txtuserName"/>
+        <Spinner
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:id="@+id/spnStatus"
+            android:textAlignment="center"
+            android:entries="@array/status"
+            android:background="@drawable/border"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/imguser"
+            android:layout_below="@+id/txtuserName"
+            android:layout_marginTop="10dp"></Spinner>
+
+
+
+
+        <EditText
+            android:layout_below="@+id/imguser"
+            android:layout_marginTop="20dp"
+            android:minHeight="150dp"
+            android:hint="Bạn đang nghĩ gì"
+            android:paddingLeft="20dp"
+            android:gravity="top"
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp"
+            android:id="@+id/edtInput"
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:background="@drawable/border"
+            android:drawablePadding="20dp"
+
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_below="@+id/edtInput"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imgtest"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:text="Đăng "
+            android:paddingRight="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/btnDang"
+            android:paddingLeft="20dp"
+            android:layout_below="@+id/imgtest"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:text="Chọn hình "
+            android:paddingRight="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/btnchonhinh"
+            android:paddingLeft="20dp"
+            android:layout_below="@+id/imgtest"/>
+
+
+    </RelativeLayout>
+</ScrollView>
+
